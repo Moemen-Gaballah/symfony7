@@ -13,3 +13,10 @@ composer require cs-fixer-shim
 ./vendor/bin/php-cs-fixer fix
 
 composer require twig
+
+composer require debug
+
+php bin/console OR ./bin/console
+
+php bin/console debug:router
+php bin/console debug:twig

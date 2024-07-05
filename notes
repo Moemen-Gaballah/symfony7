@@ -20,3 +20,5 @@ php bin/console OR ./bin/console
 
 php bin/console debug:router
 php bin/console debug:twig
+
+composer require serializer

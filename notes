@@ -11,3 +11,5 @@ composer require cs-fixer-shim
 ./vendor/bin/php-cs-fixer
 
 ./vendor/bin/php-cs-fixer fix
+
+composer require twig

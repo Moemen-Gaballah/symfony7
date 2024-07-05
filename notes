@@ -1,0 +1,13 @@
+symfony --help
+
+symfony check:req
+
+symfony new starshop
+
+symfony serve
+
+composer require cs-fixer-shim
+
+./vendor/bin/php-cs-fixer
+
+./vendor/bin/php-cs-fixer fix

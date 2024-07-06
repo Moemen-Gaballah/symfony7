@@ -38,3 +38,11 @@ composer require symfonycasts/tailwind-bundle
 ./bin/console tailwind:init
 
 ./bin/console tailwind:build -w
+
+composer require symfony/stimulus-bundle
+
+composer require symfony/maker-bundle --dev
+
+symfony console
+
+symfony console make:command

@@ -57,6 +57,7 @@ If you use default IP addresses, append your `.env` file with the following:
 * If you can't compose a new project, you might need to delete your old docker networks. Type `docker network ls` and then remove your old project network by writing `docker network rm NETWORK_ID` (for example `docker network rm 528d8c753c17`)
 * `cannot start service XXX: network YYY not found`. Open up container list with `docker container ls -a` and remove old containers with `docker container rm ID`.
 
-# Something does not work?
+# Demo Project
 
-[Please create an issue.](https://github.com/kasteckis/symfony-docker-compose/issues/new)
+![alt text](./public/demo.png)
+

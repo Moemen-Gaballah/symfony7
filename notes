@@ -28,3 +28,7 @@ composer require serializer
 ./bin/console debug:autowiring
 
 ./bin/console debug:autowiring log
+
+composer require symfony/asset-mapper symfony/asset
+
+./bin/console debug:asset

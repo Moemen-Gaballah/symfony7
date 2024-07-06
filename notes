@@ -32,3 +32,9 @@ composer require serializer
 composer require symfony/asset-mapper symfony/asset
 
 ./bin/console debug:asset
+
+composer require symfonycasts/tailwind-bundle
+
+./bin/console tailwind:init
+
+./bin/console tailwind:build -w

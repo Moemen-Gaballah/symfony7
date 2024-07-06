@@ -22,3 +22,9 @@ php bin/console debug:router
 php bin/console debug:twig
 
 composer require serializer
+
+./bin/console debug:container
+
+./bin/console debug:autowiring
+
+./bin/console debug:autowiring log

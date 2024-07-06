@@ -24,22 +24,27 @@
     <table>
         <tr>
             <th>Name</th>
-            <th>{{ myShip.name }}</th>
+            <th>
+                <a href="{{ path('app_starship_show', {id: myShip.id}) }}">{{ myShip.name }}
+                </a>
+            </th>
         </tr>
 
         <tr>
             <th>Class</th>
-            <th>{{ myShip.class }}</th>
+            <td>
+                {{ myShip.class }}
+            </td>
         </tr>
 
         <tr>
             <th>Captain</th>
-            <th>{{ myShip.captain }}</th>
+            <td>{{ myShip.captain }}</td>
         </tr>
 
         <tr>
             <th>Status</th>
-            <th>{{ myShip.status }}</th>
+            <td>{{ myShip.status }}</td>
         </tr>
     </table>
 
